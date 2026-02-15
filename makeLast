@@ -1,0 +1,7 @@
+public int[] makeLast(int[] nums) {
+  int[] newarr = new int[nums.length*2];
+  
+  newarr[newarr.length-1] = nums[nums.length-1];
+  
+  return newarr;
+}
